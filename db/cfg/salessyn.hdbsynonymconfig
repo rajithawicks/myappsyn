@@ -1,0 +1,8 @@
+{
+  "sales_syn": {
+    "target": {
+      "object": "myapphana.db::sales",
+      "schema.configure": "ServiceName_1/schema"
+    }
+  }
+}

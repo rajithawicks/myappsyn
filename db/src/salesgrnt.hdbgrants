@@ -1,0 +1,14 @@
+{
+    "ServiceName_1": {                                                        
+        "object_owner": { 
+            "container_roles": [
+                "MYAPPHANA_TARGET_ROLE_G#"
+            ]
+        },
+        "application_user": {
+            "container_roles": [
+                "MYAPPHANA_TARGET_ROLE"
+            ]
+        }
+    }
+}
