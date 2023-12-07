@@ -23,7 +23,8 @@
         "watch-salsesbycoutry": "cds watch --open salsesbycoutry/webapp/index.html?sap-ui-xx-viewCache=false",
         "undeploy": "cf undeploy myappsyn --delete-services --delete-service-keys --delete-service-brokers",
         "build": "rimraf resources mta_archives && mbt build --mtar archive",
-        "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
+        "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
+        "watch-salsedatamaintain": "cds watch --open salsedatamaintain/webapp/index.html?sap-ui-xx-viewCache=false"
     },
     "cds": {
         "requires": {
@@ -34,6 +35,7 @@
         }
     },
     "sapux": [
-        "app/salsesbycoutry"
+        "app/salsesbycoutry",
+        "app/salsedatamaintain"
     ]
 }

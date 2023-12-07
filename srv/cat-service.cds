@@ -1,9 +1,9 @@
-using my.bookshop as my from '../db/data-model';
-using sales_syn as sales_syn from '../db/model.cds';
+using { my.bookshop as my , SALESVIEW , V_SALES } from '../db/data-model';
 
 service CatalogService {
     @readonly entity Books as projection on my.Books;
 
     @odata.draft.enabled
-    entity salesSet as projection on sales_syn;
+    entity SalseViewSet as projection on V_SALES;
+
 }

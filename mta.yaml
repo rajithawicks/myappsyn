@@ -72,12 +72,12 @@ modules:
     build-result: resources
     requires:
     - artifacts:
-      - salsesbycoutry.zip
-      name: salsesbycoutry
+      - salsedatamaintain.zip
+      name: salsedatamaintain
       target-path: resources/
-- name: salsesbycoutry
+- name: salsedatamaintain
   type: html5
-  path: app/salsesbycoutry
+  path: app/salsedatamaintain
   build-parameters:
     build-result: dist
     builder: custom

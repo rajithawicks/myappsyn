@@ -1,7 +1,7 @@
 {
-  "sales_syn": {
+  "V_SALES": {
     "target": {
-      "object": "myapphana.db::sales",
+      "object": "SALES",
       "schema.configure": "ServiceName_1/schema"
     }
   }
