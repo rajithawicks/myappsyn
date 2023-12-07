@@ -1,4 +1,4 @@
 VIEW "SALESVIEW"
 (ID,REGION,COUNTRY, AMOUNT)
-AS SELECT ID,REGION,COUNTRY, AMOUNT
-from "V_SALES"
+AS SELECT "Id","Region","Country", "Amount"
+from "Sales_info"

@@ -4,5 +4,11 @@
       "object": "SALES",
       "schema.configure": "ServiceName_1/schema"
     }
+  },
+  "Sales_info": {
+    "target": {
+      "object": "Sales2",
+      "schema.configure": "ServiceName_1/schema"
+    }
   }
 }
