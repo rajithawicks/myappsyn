@@ -4,19 +4,19 @@ annotate service.SalseViewSet with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
-            Value : ID,
+            Value : Id,
         },
         {
             $Type : 'UI.DataField',
-            Value : REGION,
+            Value : Region,
         },
         {
             $Type : 'UI.DataField',
-            Value : COUNTRY,
+            Value : Country,
         },
         {
             $Type : 'UI.DataField',
-            Value : AMOUNT,
+            Value : Amount,
         },
     ]
 );
@@ -26,19 +26,19 @@ annotate service.SalseViewSet with @(
         Data : [
             {
                 $Type : 'UI.DataField',
-                Value : ID,
+                Value : Id,
             },
             {
                 $Type : 'UI.DataField',
-                Value : REGION,
+                Value : Region,
             },
             {
                 $Type : 'UI.DataField',
-                Value : COUNTRY,
+                Value : Country,
             },
             {
                 $Type : 'UI.DataField',
-                Value : AMOUNT,
+                Value : Amount,
             },
         ],
     },

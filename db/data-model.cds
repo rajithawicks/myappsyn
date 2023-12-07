@@ -14,10 +14,10 @@ context my.bookshop {
 // access though the view -  source hdbtable is  Sales2 in myapphana app
 @cds.persistence.exists
 Entity  SALESVIEW {
-  key ID      : Integer     @title: 'ID';
-      REGION  : String(100) @title: 'Region';
-      COUNTRY : String(100) @title: 'Country';
-      AMOUNT  : Integer     @title: 'Amount';
+  key Id      : Integer     @title: 'ID 212112';
+      Region  : String(100) @title: 'Region 5656';
+      Country : String(100) @title: 'Country 66';
+      Amount  : Integer     @title: 'Amount 656';
 }
 
 

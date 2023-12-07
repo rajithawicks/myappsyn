@@ -1,4 +1,4 @@
 VIEW "SALESVIEW"
-(ID,REGION,COUNTRY, AMOUNT)
+(Id,Region,Country, Amount)
 AS SELECT "Id","Region","Country", "Amount"
 from "Sales_info"
